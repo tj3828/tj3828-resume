@@ -174,19 +174,19 @@ content:
       - layout: left
         title: Backend
         description: | # this will include new lines to allow paragraphs
-          * Java, Golang, C#
-          * Spring Boot, Spring MVC, Spring Data JPA/Redis, Spring Cloud AWS
-          * .NET WebForm, .NET MVC
-          * JPA, Querydsl, Hibernate
+          * **Java**, **C#**, Golang
+          * **Spring Boot**, **Spring MVC**, **Spring Data JPA**/Redis, Spring Cloud AWS
+          * **.NET WebForm**, .NET MVC
+          * **JPA**, **Querydsl**, Hibernate
           * Gradle, Maven
           * IntelliJ
       - layout: left
         title: DevOps
         description: | # this will include new lines to allow paragraphs
-          * MSSQL, MariaDB, PostgreSQL
-          * Github Actions, AWS Code Deploy
-          * AWS Elastic Cache (Redis), RDS (Aurora), S3, EC2, Cloud Watch, IoT Core, CloudFront, Lambda, EventBridge
-          * Nginx, Tomcat, BIND, Apache MINA
+          * **MSSQL**, **MariaDB**, PostgreSQL
+          * **Github Actions**, AWS Code Deploy
+          * **S3**, **EC2**, **Cloud Watch**, **EventBridge**, **CloudFront**, Lambda, IoT Core, AWS ElasticCache (Redis), RDS (Aurora), 
+          * **Nginx**, **BIND**, Tomcat, Apache MINA
           * Linux Centos, Ubuntu
           * DataDog, Kibana
       - layout: left
@@ -201,23 +201,40 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 우아한 테크 캠프 PRO
+        title: 우아한 테크 캠프 PRO 4기
         caption: 2022.05.09 ~ 2022.07.08
+        link: https://edu.nextstep.camp/c/lqsBs7x0
         description: | # this will include new lines to allow paragraphs
-          * NextStep 우아한 테크 캠프 PRO 4기 - 우수수료생
+          * 2개의 과제를 거쳐 선발된 인원만 수강 가능(경쟁률 7:1)
+          * 매주 1회 온라인 강의와 8주간 8개의 미션을 코드리뷰를 통해 merge되어야만 수료 가능
+          * 클린코드, TDD, ATDD, DDD, 레거시 리팩토링, 시스템 아키텍쳐 설계 및 운영, 대용량 데이터 최적화, 서버 튜닝 학습
+          * 수강인원 중 우수 수료생으로 선발
 
       - layout: left
-        title: AWS Infra
-        sub_title: AWS 인프라 운영 및 보안 관리
+        title: Security Engineering on AWS
+        caption: 2022.07
         description: | # this will include new lines to allow paragraphs
-          * Security Engineering on AWS (2022.07)
-          * Systems Operations on AWS (2022.06)
+          * AWS 클라우드 사용에 따른 보안 이점 및 책임 파악
+          * 안전한 애플리케이션 인프라 구축
+          * AWS 리소스 모니터링 및 인시던트 대응
+          * 로그 캡처 및 처리
 
       - layout: left
-        title: AWS AI/ML
-        sub_title: AWS 서비스 기반 AI/ML 교육
+        title: Systems Operations on AWS
+        caption: 2022.06
         description: | # this will include new lines to allow paragraphs
-          * AWS Enterprise Boost Program - AI/ML IoT트랙 (2022.05 ~ 2022.08)
+          * AWS에서 네트워크와 시스템의 자동화 및 반복 가능한 배포를 관리하고 운영하는 방법 학습
+          * 서비스, 네트워크, 시스템의 설치, 구성, 자동화, 모니터링, 보안, 유지 관리, 문제 해결 등 시스템 운영 기능 학습
+          * 특정 AWS 기능, 도구, 모범 사례 학습
+
+      - layout: left
+        title: AWS Enterprise Boost Program
+        sub_title: AI/ML IoT트랙
+        caption: 2022.05 ~ 2022.08
+        description: | # this will include new lines to allow paragraphs
+          * AI를 보다 효율적으로 다루기 위한 AWS 서비스 학습
+          * Machine Learning / Deep Learning 학습
+          * AI도입을 위한 AWS와 POC 진행
 
 
 
