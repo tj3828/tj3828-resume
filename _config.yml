@@ -85,74 +85,163 @@ content:
       - layout: left
         title: 테스트 시스템 구축
         sub_title: Coway
-        caption: 2022.06 ~ <br/><br/><mark>JAVA</mark> <mark>Spring Boot</mark> <mark>JPA</mark> <mark>React</mark> <mark>Github Actions</mark> <mark>AWS Iot Core, CloudFront, ElasticCache, EC2, Lambda, EventBridge</mark> <mark>AWS Aurora Postgresql</mark>
+        caption: 2022.06 ~
         #        quote: >
         #          연간 4600개사 고객사가 이용하는 서비스의 매출 정산
-        description: | # this will include new lines to allow paragraphs
-          * 신규 제품 개발 시 반복적으로 진행되는 제품 테스트 작업의 효율성을 위한 시스템 구축
-          * AWS IoTCore SDK를 통한 PUB/SUB 스트레스 테스트 기능 및 React를 이용한 사이트 개발
-          * 제품과 서버 간 연동되는 MQTT 토픽 프로토콜을 AWS ElasticCache를 이용한 개선
-          * Github Actions - AWS ECR - AWS EKS 구성의 CI/CD 무중단 배포 구축
+        description: | 
+          **프로젝트**
+            * 신규 제품 개발 시 반복적으로 진행되는 제품 테스트 작업의 효율성을 위한 시스템 구축
+          
+          **담당인원**
+            * 1명
+          
+          **담당업무**
+            * AWS IoTCore SDK와 Websocket을 이용한 PUB/SUB 스트레스 테스트 기능 개발
+            * @Jsonproperty를 이용한 하드코딩 형식의 데이터를 AWS RDS, ElasticCache를 이용한 동적데이터 형태의 운영 효율 개선
+            * Github Actions - AWS ECR - AWS EKS 구성의 CI/CD 구축
+          
+          **사용기술**
+            * <mark>JAVA</mark> <mark>Spring Boot</mark> <mark>JPA</mark> <mark>Querydsl</mark>
+            * <mark>AWS Iot Core, CloudFront, ElasticCache, EC2, EKS</mark> <mark>AWS Aurora Postgresql</mark>
+            * <mark>React</mark> <mark>Github Actions</mark> 
+          
+          <br/>
+          
+          ---
 
       - layout: left
         title: 공장 출하 시스템
         sub_title: Coway
-        caption: 2022.01 ~ <br/><br/><mark>JAVA</mark> <mark>Spring Boot</mark> <mark>JPA</mark> <mark>Postgresql</mark> <mark>bind(DNS)</mark> <mark>nginx</mark> <mark>mosquitto</mark> <br/><mark>Apache MINA(tcp)</mark> <mark>Github Actions</mark> <mark>AWS Code Deploy</mark>
+        caption: 2022.01 ~ 2022.05
         #        quote: >
         #          연간 4600개사 고객사가 이용하는 서비스의 매출 정산
-        description: | # this will include new lines to allow paragraphs
-          * 국내외 4개 공장에서 생산되는 제품을 판매 전 선 검증을 위한 서버
-          * Apache MINA를 이용한 하드웨어 제품과의 TCP 연결 서버 운영
-          * AWS EC2에 어플리케이션 및 DNS 서버 환경 구성 및 운영
-          * Github Actions - AWS S3 - AWS Code Deploy - AWS EC2 nginx 구성의 CI/CD 무중단 배포 구축
+        description: | 
+          **프로젝트**
+            * 국내외 4개 공장에서 생산되는 제품을 판매 전 선 검증을 위한 서버
+          
+          **담당인원**
+            * 1명
+          
+          **담당업무**
+            * Apache MINA를 이용한 하드웨어 제품과의 TCP 연결 서버 운영
+            * AWS EC2에 어플리케이션 및 DNS 서버 환경 구성 및 운영
+            * Datadog 연동 구성 및 간헐적 EC2 CPU 증가 현상 해결
+            * Github Actions - AWS S3 - AWS Code Deploy - AWS EC2 nginx 구성의 CI/CD 무중단 배포 구축
+          
+          **사용기술**
+            * <mark>JAVA</mark> <mark>Spring Boot</mark> <mark>JPA</mark>
+            * <mark>Postgresql</mark> <mark>bind(DNS)</mark> <mark>nginx</mark> <mark>mosquitto</mark> <mark>Apache MINA(tcp)</mark> 
+            * <mark>AWS EC2, Code Deploy</mark> <mark>Github Actions</mark> <mark>Datadog</mark> 
+          
+          <br/>
+          
+          ---
 
       - layout: left
         title: 차세대 학습 플랫폼 개발
         sub_title: 휴넷
-        caption: 2021.08 ~ 2021.12 <br/><br/> <mark>JAVA</mark> <mark>Spring Boot</mark> <br/> <mark>JPA</mark> <mark>MariaDB</mark> <mark>QueryDSL</mark> <mark>Spring Cloud OpenFeign</mark>
+        caption: 2021.08 ~ 2021.12
         #        quote: >
         #          연간 4600개사 고객사가 이용하는 서비스의 매출 정산
-        description: | # this will include new lines to allow paragraphs
-          * Stored procedure 기반의 .Net Framework 레거시를 JPA 기반의 Spring boot를 이용한 차세대 학습 플랫폼 개발 
-          * N번 발생하는 쿼리를 QueryDSL을 이용해 1번 쿼리로 최적화 [**자세히 보기**](https://programmingnote.tistory.com/87) 
-          * Spring Events를 이용하여 복합한 Service간의 순환참조 개선 [**자세히 보기**](https://programmingnote.tistory.com/89)
-          * Spring Cloud OpenFeign을 이용한 다른 시스템과의 연동
+        description: | 
+          **프로젝트**
+            * Stored procedure 기반의 .Net Framework 레거시를 JPA 기반의 Spring boot를 이용한 차세대 학습 플랫폼 개발
+
+          **담당인원**
+            * 6명
+          
+          **담당업무**
+            * 온라인 학습 플랫폼 및 LMS 학습 플랫폼 개발 및 유지보수
+            * N번 발생하는 쿼리를 QueryDSL을 이용해 1번 쿼리로 최적화 [**자세히 보기**](https://programmingnote.tistory.com/87) 
+            * Spring Events를 이용하여 복합한 Service간의 순환참조 개선 [**자세히 보기**](https://programmingnote.tistory.com/89)
+            * Spring Cloud OpenFeign을 이용한 타 시스템과의 연동
+          
+          **사용기술**
+            * <mark>JAVA</mark> <mark>Spring Boot</mark> <mark>JPA</mark> <mark>Spring Cloud OpenFeign</mark>
+            * <mark>Querydsl</mark> <mark>MariaDB</mark>
+            * <mark>Jira</mark> <mark>Bitbucket</mark>
+          
+           <br/>
+          
+          ---
 
       - layout: left
         title: 정산 시스템
         sub_title: 휴넷
-        caption: 2020.05 ~ 2021.03 <br/><br/><mark>MSSQL CDC</mark> <mark>.NET</mark>
+        caption: 2020.05 ~ 2021.03
         #        quote: >
         #          연간 4600개사 고객사가 이용하는 서비스의 매출 정산
-        description: | # this will include new lines to allow paragraphs
-          * 과목, 학생 수 등에 따른 사내 매출 금액에 따른 정산 시스템 개발 및 운영
-          * Change Data Capture(CDC)를 이용해 사내 정산 데이터를 외부 ERP 시스템으로 Stored procedure와 Liked Server를 통해 연동
-          * API를 통한 외부 CRM 시스템으로 사내 정산데이터 연동
+        description: | 
+          **프로젝트**
+            * 과목, 학생 수 등에 따른 사내 매출 금액에 따른 정산 시스템 개발 및 운영
+            * 타 시스템(ECP, CRM)으로 데이터 연동
+          
+          **담당인원**
+            * 1명
+          
+          **담당업무**
+            * 사내 정산시스템 개발 및 유지보수
+            * MSSQL CDC를 이용해 사내 정산 데이터를 외부 ERP 시스템으로 Stored procedure와 Liked Server를 통해 연동
+            * API를 통한 외부 CRM 시스템으로 사내 정산데이터 연동
+          
+          **사용기술**
+            * <mark>Spring Boot</mark> <mark>.NET</mark>
+            * <mark>MSSQL Stored Procedure</mark> <mark>MSSQL CDC</mark> 
+          
+          <br/>
+          
+          ---
 
       - layout: left
         title: 수강 & 컨텐츠 관리 시스템
         sub_title: 휴넷
-        caption: 2020.01 ~ 2021.08 <br/><br/><mark>C#</mark> <mark>Golang</mark> <mark>.NET WebForm</mark> <mark>MSSQL</mark> <mark>FFMPEG</mark>
+        caption: 2020.01 ~ 2021.08
         #        quote: >
 #          연간 4600개사 고객사가 이용하는 서비스의 매출 정산
         description: | # this will include new lines to allow paragraphs
-          * 기업 정보, 과정 개설, 수강 신청 등을 포함한 비즈니스 코어 시스템 
-          * Stored prodedure 기반의 독려(SMS/EMAIL/KAKAO) 및 통계 데이터 등 대량 데이터를 대상으로 하는 기능 구축
-          * 외주 CP사 및 컨텐츠 제작자의 영상 업로드 효율화를 위한 FFMPEG을 이용한 트랜스코딩 프로그램 개발  
-          * 국가사업으로 민간 업체에 서버를 대여해주기 위한 온프레미스 환경의 서버 복제 및 구축
+          **프로젝트**
+            * 기업 정보, 과정 개설, 수강 신청 등을 포함한 비즈니스 코어 시스템
+          
+          **담당업무**
+            * 4명
+          
+          **담당업무**
+            * Stored prodedure 기반의 독려(SMS/EMAIL/KAKAO) 및 통계 데이터 등 대량 데이터를 대상으로 하는 기능 구축
+            * 외주 CP사 및 컨텐츠 제작자의 영상 업로드 효율화를 위한 FFMPEG을 이용한 트랜스코딩 프로그램 개발
+            * 과정 운영 문제로 인한 N개 테이블 & 수십만건의 데이터 보정 경험 
+            * 국가사업으로 민간 업체에 서버를 대여해주기 위한 온프레미스 환경의 어플리케이션 서버 복제 및 구성
+          
+          **사용기술**
+            * <mark>C#</mark> <mark>.NET WebForm</mark> <mark>Golang</mark> 
+            * <mark>MSSQL</mark> <mark>Stored Procedure</mark>
+            * <mark>FFMPEG</mark> <mark>SVN</mark>
+          
+          <br/>
+          
+          ---
 
       - layout: left
         title: 온라인 학습 시스템
         sub_title: 휴넷
-        caption: 2019.05 ~ 2021.12 <br/><br/><mark>C#</mark> <mark>.NET WebForm</mark> <mark>Jwplayer</mark> <mark>MSSQL</mark> <mark>Golang</mark> <mark>Electron</mark> <mark>MariaDB</mark>
+        caption: 2019.05 ~ 2021.12 <br/><br/>
         #        quote: >
         #          연간 4600개사 고객사가 이용하는 서비스의 매출 정산
-        description: | # this will include new lines to allow paragraphs
-          * B2C, B2B의 모든 학습자가 이용하는 비즈니스 핵심 온라인 영상 학습창 서비스
-          * 고객사 요구사항에 맞는 타 업체 시스템과의 SSO 연동(YBM, 전화외국어, 태니지먼트 등)
-          * 영상 다운로드하여 오프라인에서 학습할 수 있는 WebDRM 프로그램 개발
-          * JWplayer 구버전과 신규 브라우저 호환성으로 인한 개편 작업
-          * 레거시 프로젝트 도메인 기반의 차세대 LABS 프로젝트 개발
+        description: | 
+          **프로젝트**
+            * B2C, B2B의 모든 학습자가 이용하는 비즈니스 핵심 온라인 영상 학습창 서비스
+          
+          **담당인원**
+            * 4명
+          
+          **담당업무**
+            * 고객사 요구사항에 맞는 타 업체 시스템과의 SSO 연동(YBM, 전화외국어, 태니지먼트 등)
+            * 영상 다운로드하여 오프라인에서 학습할 수 있는 WebDRM 프로그램 개발
+            * JWplayer 구버전과 신규 브라우저 호환성으로 인한 개편 작업 [자세히 보기](https://programmingnote.tistory.com/79)
+            
+          **사용기술**
+            * <mark>C#</mark> <mark>.NET WebForm</mark> <mark>Golang</mark>
+            * <mark>MSSQL</mark> <mark>Stored Procedure</mark>
+            * <mark>Jwplayer</mark> <mark>Electron</mark> <mark>SVN</mark>
 
   - title: Skill
     layout: list
